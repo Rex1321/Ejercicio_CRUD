@@ -142,7 +142,7 @@ function Llamada1() {
 
 }
 function Llamada2() {
-    alert("Su pelicula fue añadida con éxito");
+    alert("Pelicula agregada con EXITO al repertorio. Favor de actualizar el feed en caso que no le aparezca.");
     var txt_title = document.getElementById('Title').value;
     var txt_imdbID = document.getElementById('imdbID').value;
     var txt_description = document.getElementById('description').value;
@@ -186,7 +186,7 @@ function Llamada2() {
 
 }
 function Llamada3() {
-    alert("Su pelicula fue eliminada con éxito");
+    alert("La pelicula fue actualizada con EXITO");
 
     var txt_imdbID = document.getElementById('imdbID').value;
 
@@ -202,7 +202,7 @@ function Llamada3() {
 }
 
 function Llamada4() {
-    alert("Su pelicula fue actualizada con éxito");
+    alert("La pelicula fue actualizada con EXITO");
     var txt_title2 = document.getElementById('Title2').value;
     var txt_imdbID2 = document.getElementById('imdbID2').value;
     var txt_description2 = document.getElementById('description2').value;
